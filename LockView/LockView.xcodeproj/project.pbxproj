@@ -16,6 +16,7 @@
 		D4EE277A213F71FA009F6031 /* LockViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE2779213F71FA009F6031 /* LockViewUITests.swift */; };
 		D4EE2788213F72A9009F6031 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE2787213F72A9009F6031 /* LockView.swift */; };
 		D4EE278A213F7B5C009F6031 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE2789213F7B5C009F6031 /* BackgroundView.swift */; };
+		D4EE278C213FBAB6009F6031 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE278B213FBAB6009F6031 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D4EE277B213F71FA009F6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EE2787213F72A9009F6031 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		D4EE2789213F7B5C009F6031 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		D4EE278B213FBAB6009F6031 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				D4EE2759213F71FA009F6031 /* AppDelegate.swift */,
 				D4EE275B213F71FA009F6031 /* ViewController.swift */,
+				D4EE278B213FBAB6009F6031 /* ContentViewController.swift */,
 				D4EE2789213F7B5C009F6031 /* BackgroundView.swift */,
 				D4EE2787213F72A9009F6031 /* LockView.swift */,
 				D4EE275D213F71FA009F6031 /* Main.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EE278C213FBAB6009F6031 /* ContentViewController.swift in Sources */,
 				D4EE275C213F71FA009F6031 /* ViewController.swift in Sources */,
 				D4EE275A213F71FA009F6031 /* AppDelegate.swift in Sources */,
 				D4EE278A213F7B5C009F6031 /* BackgroundView.swift in Sources */,

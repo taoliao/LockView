@@ -8,14 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,LockViewDelegate {
 
+    @IBOutlet weak var lockView: LockView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        lockView.delegate = self
         
     }
 
+    func lockViewGestureRecognFinsh(lockView : LockView,password: String) {
+        
+        print(password,lockView)
+        
+        self.present(ContentViewController(), animated: true, completion: nil)
+        
+    }
 
 }
 
